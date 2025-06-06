@@ -15,4 +15,4 @@ Raise your hand and snap, and watch a dust disintegration effect play out in rea
 - Built the frontend and handled the visual interaction
 
 ## Team
-Created with a team of 3 during a 3-hour sprint.
+Created with a team of 3 in 3 hours.

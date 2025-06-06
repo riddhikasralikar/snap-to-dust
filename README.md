@@ -2,7 +2,7 @@
 
 A gesture-based web project built in 3 hours during the BU Spark! Art & Computing Hackathon.
 
-Raise your hand and snap—watch a dust disintegration effect play out in real time.
+Raise your hand and snap, and watch a dust disintegration effect play out in real time.
 
 ## Tech Stack
 - MediaPipe Hands for gesture detection  

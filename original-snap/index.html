@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanos Snap Effect</title>
+    <!-- MediaPipe dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    <!-- Matter.js for physics -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.min.js"></script>
+    <!-- Custom CSS and JS -->
+    <link rel="stylesheet" href="styles.css">
+
+    
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="back-button">← Back to Home</a>
+        <h1>Dustbowl Snap Effect</h1>
+    </header>
+    <h1>Thanos Snap Effect</h1>
+    
+    <div class="container">
+        <video id="video_input"></video>
+        <canvas id="output_canvas"></canvas>
+    </div>
+    
+    <div class="controls">
+        <button id="snap_button">Manual Snap</button>
+        <button id="reset_button">Reset</button>
+    </div>
+    
+    <div id="status">Initializing...</div>
+    
+    <script src="script.js"></script>
+
+    <img src="Gauntlet.png" alt="Thanos Left" class="thanos-head left">
+    <img src="Gauntlet.png" alt="Thanos Right" class="thanos-head right">
+
+</body>
+</html>

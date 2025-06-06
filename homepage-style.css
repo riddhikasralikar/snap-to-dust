@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #e63946;
+    text-shadow: 0 0 10px rgba(230, 57, 70, 0.5);
+}
+
+.description {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.demos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.demo-card {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.demo-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(230, 57, 70, 0.3);
+}
+
+.demo-card h2 {
+    padding: 20px;
+    margin: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 15px 0;
+    background-color: #444;
+}
+
+.demo-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+.demo-button:hover {
+    background-color: #d62c39;
+    transform: scale(1.05);
+}
+
+.demo-button:active {
+    transform: scale(0.95);
+}
+
+.instructions {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.instructions h3 {
+    margin-top: 0;
+    color: #e63946;
+}
+
+.instructions ol {
+    margin-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .demos {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .demo-card {
+        max-width: 100%;
+    }
+}
